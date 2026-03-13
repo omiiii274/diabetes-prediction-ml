@@ -75,3 +75,13 @@ Random Forest identified the top predictors:
 | Plotting | Matplotlib |
 
 ## 📁 Files In This Project
+
+## 📊 Model Performance & Insights
+
+### 📉 ROC Curve Comparison
+![ROC Curves](images/roc_curves.png)
+* **Insight:** Random Forest (AUC 0.85) consistently outperformed Logistic Regression and SVM, showing better robustness across all classification thresholds.
+
+### 🔑 Clinical Feature Importance
+![Feature Importance](images/feature_importance.png)
+* **Insight:** **Glucose** and **BMI** are the primary drivers of the model. This aligns with clinical literature where hyperglycemia and obesity are the strongest modifiable risk factors for Type 2 Diabetes.
