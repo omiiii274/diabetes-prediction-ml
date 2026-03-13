@@ -1,0 +1,9 @@
+├── images/
+│   ├── roc_curves.png
+│   ├── feature_importance.png
+│   └── correlation.png
+├── data/
+│   └── (if the csv is here)
+├── main.py
+├── requirements.txt  <-- FIXED NAME, NO SPACE
+└── Dockerfile        <-- ADD THIS FOR "IT" CREDIBILITY
